@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Remake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">VALORANT</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" onclick="showAbout()">About</a></li>
+                <li><a href="https://playvalorant.com/en-gb/agents/" target="_blank">Agents</a></li>
+                <li><a href="https://playvalorant.com/en-gb/news/" target="_blank">News</a></li>
+                <li><a href="https://valorant.secure.dl.riotgames.com/VALORANT.live.exe" target="_blank">Play Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>DEFY THE LIMITS</h1>
+        <p>Experience a tactical shooter like no other.</p>
+        <a href="https://valorant.secure.dl.riotgames.com/VALORANT.live.exe" class="btn" target="_blank">Play Now</a>
+    </section>
+    
+    <section class="about" id="about" style="display: none;">
+        <h2>What is Valorant?</h2>
+        <p>Valorant is a 5v5 character-based tactical shooter where precision and strategy are key. Choose your agent, master their abilities, and dominate the battlefield.</p>
+    </section>
+    
+    <footer>
+        <p>Remake By = Kenula Senarath .</p>
+    </footer>
+    
+    <script>
+        function showAbout() {
+            document.getElementById('about').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
